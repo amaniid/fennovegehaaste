@@ -1,0 +1,42 @@
+/* CSS VARIABLES */
+:root {
+    --primary: #b3fdbf;
+    --dark: #1b271d;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--dark);
+}
+
+body {
+    background: #ccc;
+    margin: 30px, 50px;
+    line-height: 1.4;
+}
+
+.btn {
+    background-color: #96A778;
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+
+/* Navigation */
+/* .main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+} */
