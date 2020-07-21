@@ -15,85 +15,100 @@
 
         <!-- navigation -->
         <nav class="main-nav">
-            <ul>
-                <li><a href="#">Alku</a></li>
-                <li><a href="#">Haasteet</a></li>
-                <li><a href="#">Reseptit</a></li>
-                <li><a href="#">Tarina</a></li>
-            </ul>
+            <div class="menu-grid">
+                <a class="hide-medium hide-large" href="javascript:void(0);" onclick="showOrHide()"
+                    title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                <a class="hide-medium hide-large" href="#">Etusivu</a>
+                <a class="hide-small" href="#">Haasteet</a>
+                <a class="hide-small" href="#">Reseptit</a>
+                <a class="hide-small" href="#">Tarina</a>
+            </div>
+
+            <!-- for small screens ! -->
+            <div id="navMobile" class="bar-block hide hide-large hide-medium">
+                <a class="bar-item" href="#">Haasteet</a>
+                <a class="bar-item" href="#">Reseptit</a>
+                <a class="bar-item" href="#">Tarina</a>
+            </div>
         </nav>
 
         <header class="showcase">
             <h1>FENNOVEGEHAASTE</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus blanditiis suscipit nesciunt aperiam odit eum corrupti consequatur porro fugiat tempore.</p>
-            <a href="#" class="btn">LOREM</a>
+            <p class="p-ingress">Lihaton lokakuu nähty? Vegaaninen tammikuu menee rutiinilla? Elämää kasvisruokaillen jo takana?
+            <br/><br/>Vietä elo-syyskuussa neljä viikkoa syöden vain <em>kotimaisia vegaaniruokia</em>.</p>
+            <!-- <a href="#" class="btn">LOREM</a> -->
         </header>
+
+        <!-- Boxes section -->
+        <section class="boxes">
+            <a href="" class="box btn">
+                <i class="fas fa-carrot fa-6x"></i>
+                <h3>Hiilarit</h3>
+            </a>
+
+            <a href="" class="box btn">
+                <i class="fas fa-seedling fa-6x"></i>
+                <h3>Protskut</h3>
+            </a>
+
+
+            <a href="" class="box btn">
+                <i class="fas fa-oil-can fa-6x"></i>
+                <h3>Rasvat</h3>
+            </a>
+
+            <a href="" class="box btn">
+                <i class="fas fa-mug-hot fa-6x"></i>
+                <h3>Juomat</h3>
+            </a>
+        </section>
 
         <!-- Top container / background -->
         <section class="top-container">
             <div class="top-box top-box-a">
-                <h4>Sekasyöjät</h4>
+                <h3>Sekasyöjät</h3>
                 <p class="easy">Syö 1 fennovegaaninen ateria päivässä</p>
                 <a href="" class="btn">KOKEILE</a>
             </div>
             <div class="top-box top-box-b">
-                <h4>Kasvissyöjät</h4>
+                <h3>Kasvissyöjät</h3>
                 <p class="normal">Syö fennovegaanisesti joka toinen päivä</p>
                 <a href="" class="btn">KOKEILE</a>
             </div>
             <div class="top-box top-box-c">
-                <h4>Vegaanit</h4>
+                <h3>Vegaanit</h3>
                 <p class="hard">Syö pääosin fennovegaanisesti</p>
                 <a href="#" class="btn">KOKEILE</a>
             </div>
         </section>
 
-        <!-- Boxes section -->
-        <section class="boxes">
-            <div class="box">
-                <a href=""><i class="fas fa-carrot fa-6x"></i></a>
-                <h3>Hiilarit</h3>
-            </div>
-
-            <div class="box">
-                <a href=""><i class="fas fa-seedling fa-6x"></i></a>
-                <h3>Protskut</h3>
-            </div>
-
-            <div class="box">
-                <a href=""><i class="fas fa-oil-can fa-6x"></i></a>
-                <h3>Rasvat</h3>
-            </div>
-
-            <div class="box">
-                <a href=""><i class="fas fa-mug-hot fa-6x"></i></a>
-                <h3>Juomat</h3>
-            </div>
-        </section>
-
         <!-- disclaimer Section -->
         <section class="disclaimer">
-            <div>
-                <h2>HUOMAUTUS</h2>
+            <div class="red-left">
+                <h2>HUOMAUTUS!</h2>
                 <p>
-                    Anna muutokselle mahdollisuus, mutta muista realiteetit.
-                    On monia syötä, miksi Fennovegehaaste on vaikeaa suorittaa täydellisesti.
-                    On allergioita ja yliherkkyyksiä, lähikaupalla huonot valikoimat, aikarajoitteita, ruokabudjetti ylittyy muutoksesta ja niin edelleen.
-                    <em>Elämää</em>.<br><br>
+                    Anna haasteelle mahdollisuus, mutta muista realiteetit.
+                    On monia syitä, miksi Fennovegehaaste on vaikeaa suorittaa täydellisesti.
+                    On allergioita ja yliherkkyyksiä, lähikaupalla huonot valikoimat, aikarajoitteita, ruokabudjetti
+                    ylittyy muutoksesta ja niin edelleen.
+                    <em>Elämää</em>.<br/><br/>
                     Emme kannusta syömään fennovegaanisesti vuoden ympäri.
-                    Emme ole ravintotietelijöitä.<br><br>
+                    Emme ole ravintotietelijöitä.<br/><br/>
                 </p>
-                <a href="#" class="btn">LUE LISÄÄ</a>
+                <!-- <a href="#" class="btn">LUE LISÄÄ</a> -->
             </div>
         </section>
 
         <!-- Footer -->
         <footer>
-            <p>Em&Iid 2020</p>
+            <p>&copy;Em&Iid 2020</p><br/>
+            <a href="https://kuviasuomesta.fi/">Etusivun kuva kuviasuomesta.fi-sivustolta.</a>
         </footer>
 
     </div>
     <!-- Wrapper ends !! -->
+
+    <script src="script.js"></script>
 </body>
 
 </html>

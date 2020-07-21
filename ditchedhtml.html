@@ -10,3 +10,50 @@
     <img src="https://source.unsplash.com/random/209x200" alt="">
 
 </section>
+
+<!-- Navigation -->
+<nav class="main-nav">
+    <ul>
+        <li><a href="#">Alku</a></li>
+        <li><a href="#">Haasteet</a></li>
+        <li><a href="#">Reseptit</a></li>
+        <li><a href="#">Tarina</a></li>
+    </ul>
+</nav>
+<!-- CSS for it -->
+<style>
+    .main-nav ul {
+        display: grid;
+        grid-gap: 5px;
+        padding: 0em 8em 2em 8em;
+        list-style: none;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .main-nav a {
+        background: var(--primary);
+        display: block;
+        text-decoration: none;
+        padding: 0.8rem;
+        text-align: center;
+        color: var(--dark);
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        box-shadow: var(--shadow);
+        /* max-width: 80%; */
+    }
+
+    .main-nav a:hover {
+        background: var(--dark);
+        color: var(--primary);
+    }
+
+    .main-nav ul {
+    list-style: none;
+    padding-left: 0;
+    gap: 0.2rem;
+    display: block;
+    /* padding-right: 1rem; */
+    /* margin-right: 1rem; */
+}
+</style>
