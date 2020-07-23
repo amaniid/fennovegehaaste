@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html" charset="ISO-8859-1" />
+    <script src="https://kit.fontawesome.com/74a9d0aa5d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Fennovegehaaste</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- navigation -->
+        <nav class="main-nav">
+            <div class="menu-grid">
+                <a class="hide-medium hide-large" href="javascript:void(0);" onclick="showOrHide()"
+                    title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                <a href="index.html">Etusivu</a>
+                <a class="hide-small" href="#">Haasteet</a>
+                <a class="hide-small" href="recipes.html">Reseptit</a>
+                <a class="hide-small" href="#">Tarina</a>
+            </div>
+
+            <!-- for small screens ! -->
+            <div id="navMobile" class="bar-block hide hide-large hide-medium">
+                <a class="bar-item" href="#">Haasteet</a>
+                <a class="bar-item" href="recipes.html">Reseptit</a>
+                <a class="bar-item" href="#">Tarina</a>
+            </div>
+        </nav>
+
+        <header class="header-small">
+            <div id="sisu">
+                <h1>FENNOVEGEHAASTE</h1>
+                <p class="quote">"Kuukausi suomalaista sisua."</p>
+            </div>
+        </header>
+
+        <main>
+            <section class="disclaimer">
+                <div class="red-left">
+                    <h1>HUOMAUTUS</h1>
+                    <p>Omien reseptien työstäminen on vielä työn alla! Annamme kuitenkin vinkkejä ja linkkejä tällä sivulla.</p>
+                </div>
+            </section>
+
+            <section class="content-grid">
+                <div class="content-box" id="carbs">
+                    <h3><i class="fas fa-carrot fa-2x"></i>&nbsp;Hiilarit</h3>
+                    <ul>
+                        <li>Peruna</li>
+                        <li>Muut juurekset: porkkana, lanttu, palsternakka</li>
+                        <li>Kotimaista-makaroni</li>
+                        <li>Kaurahiutaleet</li>
+                        <li>Muut viljat: ruis, ohra, vehnä</li>
+                        <li>Leipä</li>
+                        <p>Etsi Hyvää Suomesta -merkkiä.</p>
+                    </ul>
+                </div>
+
+                <div class="content-box" id="protein">
+                    <h3><i class="fas fa-seedling fa-2x"></i>&nbsp;Protskut</h3>
+                    <ul>
+                        <li>Härkäpapurouhe/-tuotteet</li>
+                        <p>Paras lähde proteiinille. Löytyy jo marketeista, isoja määriä voi ostaa esim.
+                            <a href="https://karviaistentila.fi/tuotteet/">Karviaisten tilalta</a></p>
+                        <p>Reseptejä ja ideoita <a href="https://www.omamaa.fi/tag/harkapapurouhe/">Oma Maa</a>-sivustolla.</p>
+                        <li>Herne</li>
+                        <li>Hamppuproteiini</li>
+                        <p>Ruohonjuuresta tai <a href="https://www.impolankasvitila.fi/verkkokauppa/group/hamppuelintarvikkeet">Impolan kasvitilalta</a>.</p>
+                        <li>Kvinoa</li>
+                        <p>Prismasta löytyi ainakin yksi kotimainen kvinoa.</p>
+                        <li>Kaura</li>
+                        <p>Melko hyvin proteiinia.</p>
+                    </ul>
+                </div>
+
+                <div class="content-box" id="fats">
+                    <h3><i class="fas fa-oil-can fa-2x"></i>&nbsp;&nbsp;Rasvat</h3>
+                    <ul>
+                        <li>
+                            Rypsiöljy
+                        </li>
+                        <p>Apetit-merkillä on</p>
+                        <li>
+                            Camelinaöljy
+                        </li>
+                        <p>Prismassa näkyi jotain merkkiä, kallista verrattuna rypsiöljyyn.</p>
+                        <li>Levitteet</li>
+                        <p><em>Juureva-tuotteet</em></p>
+                        <li>Kaurakerma</li>
+                        <p>Sopii ruoanlaittoon, esimerkiksi <em>Kotimaista</em>-tuotemerkki S-ryhmän kaupoissa.</p>
+                    </ul>
+                </div>
+
+                <div class="content-box" id="drinks">
+                    <h3><i class="fas fa-mug-hot fa-2x"></i>&nbsp;Juomat</h3>
+                    <ul>
+                        <li>
+                            Vesi
+                        </li>
+                        <p>Tietenkin hanasta + löytyy Kotimaista-kivennäisvettä</p>
+                        <li>Kauramaito</li>
+                        <li>
+                            Yrttiteet
+                        </li>
+                        <p>Nettikaupoista esimerkiksi
+                            <a href="https://www.kotimaisetyrtit.fi/Yrttiteet">Heikkilän Yrttiteet</a>
+                        ja <a href="http://yrtit.niittytila.com/index.php?route=product/category&path=100">Niittytilan yrttiteet</a>
+                        </p>
+                        <li>
+                            Olut
+                        </li>
+                        <p>Paljon vaihtoehtoja.</p>
+                        <li>Viina</li>
+                        <p><b>Huom! Suomi-viina ei ole kotimaista!</b> Esimerkiksi Leijona on.</p>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!-- disclaimer Section -->
+        <section class="disclaimer" style="padding: 1rem 3rem; margin-top: 5rem;">
+            <div class="red-left">
+                <h2>HUOMAUTUS!</h2>
+                <p>
+                    Anna haasteelle mahdollisuus, mutta muista realiteetit.
+                    On monia syitä, miksi Fennovegehaaste on vaikeaa suorittaa täydellisesti.
+                    On allergioita ja yliherkkyyksiä, lähikaupalla huonot valikoimat, aikarajoitteita, ruokabudjetti
+                    ylittyy muutoksesta ja niin edelleen.
+                    <em>Elämää</em>.<br /><br />
+                    Emme kannusta syömään fennovegaanisesti vuoden ympäri.
+                    Emme ole ravintotietelijöitä.<br /><br />
+                </p>
+                <!-- <a href="#" class="btn">LUE LISÄÄ</a> -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy;Em&Iid 2020</p><br />
+            <a href="https://kuviasuomesta.fi/">Etusivun kuva kuviasuomesta.fi-sivustolta.</a>
+        </footer>
+
+    </div>
+    <!-- Wrapper ends !! -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
