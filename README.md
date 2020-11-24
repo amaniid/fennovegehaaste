@@ -1,1 +1,1 @@
-Code Finnish veganism promoting site.
+Code for our site promoting Finno-veganism challenge.
